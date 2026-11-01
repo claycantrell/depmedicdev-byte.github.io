@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31 18:10 UTC",
+  "generatedAt": "2026-11-01 18:45 UTC",
   "rows": [
     {
       "repo": "sveltejs/svelte",
@@ -354,8 +354,8 @@
         "fail-fast-true": 2,
         "always-run-on-pr": 3
       },
-      "perRun": 1.66,
-      "monthly": 1498,
+      "perRun": 1.73,
+      "monthly": 1555,
       "score": 5.05
     },
     {
