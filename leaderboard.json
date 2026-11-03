@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02 22:36 UTC",
+  "generatedAt": "2026-11-03 20:25 UTC",
   "rows": [
     {
       "repo": "sveltejs/svelte",
@@ -121,8 +121,8 @@
         "deprecated-action": 8,
         "fetch-depth-zero": 4
       },
-      "perRun": 0.83,
-      "monthly": 749,
+      "perRun": 0.77,
+      "monthly": 691,
       "score": 2.67
     },
     {
@@ -238,12 +238,12 @@
     {
       "repo": "vercel/next.js",
       "workflows": 29,
-      "findings": 114,
+      "findings": 115,
       "e": 11,
-      "w": 90,
+      "w": 91,
       "i": 13,
       "ruleHits": {
-        "missing-cache": 21,
+        "missing-cache": 22,
         "missing-timeout": 46,
         "deprecated-action": 11,
         "missing-permissions": 8,
@@ -255,7 +255,7 @@
       },
       "perRun": 3.2,
       "monthly": 2880,
-      "score": 4.47
+      "score": 4.5
     },
     {
       "repo": "preactjs/preact",
@@ -277,6 +277,28 @@
       "score": 4.69
     },
     {
+      "repo": "nuxt/nuxt",
+      "workflows": 26,
+      "findings": 77,
+      "e": 25,
+      "w": 45,
+      "i": 7,
+      "ruleHits": {
+        "missing-timeout": 22,
+        "missing-concurrency": 18,
+        "deprecated-action": 25,
+        "artifact-no-retention": 1,
+        "expensive-runner": 1,
+        "fetch-depth-zero": 2,
+        "matrix-overcommit": 2,
+        "stale-cache-key": 2,
+        "fail-fast-true": 4
+      },
+      "perRun": 2.75,
+      "monthly": 2477,
+      "score": 4.75
+    },
+    {
       "repo": "webpack/webpack",
       "workflows": 16,
       "findings": 33,
@@ -293,28 +315,6 @@
       "perRun": 2.05,
       "monthly": 1843,
       "score": 4.84
-    },
-    {
-      "repo": "nuxt/nuxt",
-      "workflows": 25,
-      "findings": 75,
-      "e": 25,
-      "w": 43,
-      "i": 7,
-      "ruleHits": {
-        "missing-timeout": 21,
-        "missing-concurrency": 17,
-        "deprecated-action": 25,
-        "artifact-no-retention": 1,
-        "expensive-runner": 1,
-        "fetch-depth-zero": 2,
-        "matrix-overcommit": 2,
-        "stale-cache-key": 2,
-        "fail-fast-true": 4
-      },
-      "perRun": 2.69,
-      "monthly": 2419,
-      "score": 4.86
     },
     {
       "repo": "npm/cli",
@@ -424,23 +424,23 @@
     },
     {
       "repo": "electron/electron",
-      "workflows": 54,
-      "findings": 215,
-      "e": 63,
-      "w": 105,
+      "workflows": 56,
+      "findings": 219,
+      "e": 65,
+      "w": 107,
       "i": 47,
       "ruleHits": {
-        "missing-timeout": 85,
-        "deprecated-action": 63,
+        "missing-timeout": 86,
+        "deprecated-action": 65,
         "artifact-no-retention": 8,
         "fetch-depth-zero": 39,
-        "missing-cache": 6,
+        "missing-cache": 7,
         "missing-concurrency": 13,
         "stale-cache-key": 1
       },
-      "perRun": 3.39,
-      "monthly": 3053,
-      "score": 5.88
+      "perRun": 3.46,
+      "monthly": 3110,
+      "score": 5.81
     },
     {
       "repo": "lodash/lodash",
@@ -650,13 +650,13 @@
     {
       "repo": "pnpm/pnpm",
       "workflows": 31,
-      "findings": 166,
-      "e": 68,
-      "w": 78,
+      "findings": 168,
+      "e": 69,
+      "w": 79,
       "i": 20,
       "ruleHits": {
-        "missing-timeout": 66,
-        "deprecated-action": 68,
+        "missing-timeout": 67,
+        "deprecated-action": 69,
         "fetch-depth-zero": 4,
         "matrix-overcommit": 6,
         "always-run-on-pr": 3,
@@ -668,7 +668,7 @@
       },
       "perRun": 2.05,
       "monthly": 1843,
-      "score": 9.42
+      "score": 9.55
     },
     {
       "repo": "microsoft/playwright",
@@ -777,23 +777,24 @@
     {
       "repo": "remix-run/remix",
       "workflows": 13,
-      "findings": 221,
+      "findings": 226,
       "e": 61,
-      "w": 130,
+      "w": 135,
       "i": 30,
       "ruleHits": {
-        "missing-cache": 14,
-        "missing-timeout": 62,
+        "missing-cache": 17,
+        "missing-timeout": 64,
         "deprecated-action": 61,
         "artifact-no-retention": 30,
         "pinned-action-sha": 37,
         "expensive-runner": 4,
-        "missing-permissions": 6,
-        "stale-cache-key": 7
+        "missing-permissions": 5,
+        "stale-cache-key": 7,
+        "missing-concurrency": 1
       },
-      "perRun": 5.38,
-      "monthly": 4838,
-      "score": 25.23
+      "perRun": 5.5,
+      "monthly": 4954,
+      "score": 25.62
     }
   ]
 }
