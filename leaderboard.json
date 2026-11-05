@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04 20:42 UTC",
+  "generatedAt": "2026-11-05 20:57 UTC",
   "rows": [
     {
       "repo": "sveltejs/svelte",
@@ -197,6 +197,28 @@
       "score": 4.2
     },
     {
+      "repo": "vercel/next.js",
+      "workflows": 29,
+      "findings": 113,
+      "e": 10,
+      "w": 90,
+      "i": 13,
+      "ruleHits": {
+        "missing-cache": 22,
+        "missing-timeout": 45,
+        "deprecated-action": 10,
+        "missing-permissions": 8,
+        "artifact-no-retention": 12,
+        "fail-fast-true": 1,
+        "matrix-overcommit": 13,
+        "pinned-action-sha": 1,
+        "stale-cache-key": 1
+      },
+      "perRun": 3.14,
+      "monthly": 2822,
+      "score": 4.36
+    },
+    {
       "repo": "prettier/prettier",
       "workflows": 17,
       "findings": 41,
@@ -234,28 +256,6 @@
       "perRun": 1.22,
       "monthly": 1094,
       "score": 4.42
-    },
-    {
-      "repo": "vercel/next.js",
-      "workflows": 29,
-      "findings": 115,
-      "e": 11,
-      "w": 91,
-      "i": 13,
-      "ruleHits": {
-        "missing-cache": 22,
-        "missing-timeout": 46,
-        "deprecated-action": 11,
-        "missing-permissions": 8,
-        "artifact-no-retention": 12,
-        "fail-fast-true": 1,
-        "matrix-overcommit": 13,
-        "pinned-action-sha": 1,
-        "stale-cache-key": 1
-      },
-      "perRun": 3.2,
-      "monthly": 2880,
-      "score": 4.5
     },
     {
       "repo": "preactjs/preact",
@@ -368,15 +368,15 @@
       "i": 20,
       "ruleHits": {
         "missing-concurrency": 7,
-        "missing-timeout": 67,
+        "missing-timeout": 68,
         "missing-cache": 37,
         "artifact-no-retention": 20,
-        "stale-cache-key": 4,
+        "stale-cache-key": 3,
         "pinned-action-sha": 4,
         "matrix-overcommit": 4
       },
-      "perRun": 16.83,
-      "monthly": 15149,
+      "perRun": 17.15,
+      "monthly": 15437,
       "score": 5.12
     },
     {
@@ -652,9 +652,9 @@
     {
       "repo": "microsoft/playwright",
       "workflows": 20,
-      "findings": 120,
+      "findings": 117,
       "e": 39,
-      "w": 77,
+      "w": 74,
       "i": 4,
       "ruleHits": {
         "missing-cache": 22,
@@ -662,14 +662,13 @@
         "missing-timeout": 32,
         "deprecated-action": 39,
         "missing-permissions": 6,
-        "pinned-action-sha": 3,
         "always-run-on-pr": 3,
         "matrix-overcommit": 6,
         "artifact-no-retention": 1
       },
       "perRun": 3.9,
       "monthly": 3514,
-      "score": 9.8
+      "score": 9.65
     },
     {
       "repo": "parcel-bundler/parcel",
@@ -732,23 +731,23 @@
     {
       "repo": "swc-project/swc",
       "workflows": 17,
-      "findings": 135,
-      "e": 48,
-      "w": 74,
+      "findings": 138,
+      "e": 49,
+      "w": 76,
       "i": 13,
       "ruleHits": {
-        "missing-cache": 13,
-        "missing-timeout": 51,
-        "deprecated-action": 48,
+        "missing-cache": 14,
+        "missing-timeout": 52,
+        "deprecated-action": 49,
         "fetch-depth-zero": 4,
         "matrix-overcommit": 6,
         "missing-concurrency": 4,
         "fail-fast-true": 1,
         "artifact-no-retention": 8
       },
-      "perRun": 3.84,
-      "monthly": 3456,
-      "score": 13.21
+      "perRun": 3.9,
+      "monthly": 3514,
+      "score": 13.5
     },
     {
       "repo": "biomejs/biome",
