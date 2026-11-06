@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05 20:57 UTC",
+  "generatedAt": "2026-11-06 20:16 UTC",
   "rows": [
     {
       "repo": "sveltejs/svelte",
@@ -220,22 +220,22 @@
     },
     {
       "repo": "prettier/prettier",
-      "workflows": 17,
-      "findings": 41,
-      "e": 17,
-      "w": 23,
+      "workflows": 18,
+      "findings": 43,
+      "e": 18,
+      "w": 24,
       "i": 1,
       "ruleHits": {
-        "missing-timeout": 16,
-        "deprecated-action": 17,
+        "missing-timeout": 17,
+        "deprecated-action": 18,
         "artifact-no-retention": 1,
         "matrix-overcommit": 3,
         "missing-cache": 3,
         "stale-cache-key": 1
       },
-      "perRun": 1.02,
-      "monthly": 922,
-      "score": 4.38
+      "perRun": 1.09,
+      "monthly": 979,
+      "score": 4.36
     },
     {
       "repo": "vitejs/vite",
@@ -317,30 +317,6 @@
       "score": 4.87
     },
     {
-      "repo": "npm/cli",
-      "workflows": 26,
-      "findings": 133,
-      "e": 1,
-      "w": 122,
-      "i": 10,
-      "ruleHits": {
-        "missing-timeout": 59,
-        "missing-concurrency": 21,
-        "fetch-depth-zero": 7,
-        "matrix-overcommit": 19,
-        "pinned-action-sha": 19,
-        "expensive-runner": 1,
-        "always-run-on-pr": 2,
-        "deprecated-action": 1,
-        "missing-permissions": 1,
-        "artifact-no-retention": 1,
-        "stale-cache-key": 2
-      },
-      "perRun": 2.56,
-      "monthly": 2304,
-      "score": 5
-    },
-    {
       "repo": "eslint/eslint",
       "workflows": 10,
       "findings": 53,
@@ -358,6 +334,31 @@
       "perRun": 1.73,
       "monthly": 1555,
       "score": 5.05
+    },
+    {
+      "repo": "npm/cli",
+      "workflows": 26,
+      "findings": 136,
+      "e": 1,
+      "w": 124,
+      "i": 11,
+      "ruleHits": {
+        "missing-timeout": 59,
+        "missing-concurrency": 21,
+        "fetch-depth-zero": 7,
+        "matrix-overcommit": 19,
+        "pinned-action-sha": 19,
+        "expensive-runner": 1,
+        "always-run-on-pr": 2,
+        "deprecated-action": 1,
+        "missing-cache": 2,
+        "missing-permissions": 1,
+        "artifact-no-retention": 2,
+        "stale-cache-key": 2
+      },
+      "perRun": 2.56,
+      "monthly": 2304,
+      "score": 5.1
     },
     {
       "repo": "facebook/react",
@@ -774,24 +775,24 @@
     {
       "repo": "remix-run/remix",
       "workflows": 13,
-      "findings": 226,
+      "findings": 233,
       "e": 61,
-      "w": 135,
+      "w": 142,
       "i": 30,
       "ruleHits": {
         "missing-cache": 17,
-        "missing-timeout": 64,
+        "missing-timeout": 66,
         "deprecated-action": 61,
         "artifact-no-retention": 30,
-        "pinned-action-sha": 37,
-        "expensive-runner": 4,
+        "pinned-action-sha": 39,
+        "expensive-runner": 6,
         "missing-permissions": 5,
-        "stale-cache-key": 7,
+        "stale-cache-key": 8,
         "missing-concurrency": 1
       },
-      "perRun": 5.5,
-      "monthly": 4954,
-      "score": 25.62
+      "perRun": 6.78,
+      "monthly": 6106,
+      "score": 26.15
     }
   ]
 }
